@@ -1,0 +1,17 @@
+let frutas = ["Manzana", "Pera", "Uva"];
+
+console.log(frutas);
+
+//Accesp a los elementos del array
+console.log(frutas[0]);
+console.log(frutas[1]);
+console.log(frutas[2]);
+
+// Metodos para agregar o eliminar elementos del array
+frutas.push("Mango");
+
+console.log(frutas);
+
+frutas.pop();
+
+console.log(frutas);
